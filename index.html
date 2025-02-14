@@ -20,7 +20,8 @@
             margin-top: 20px;
             color: #ffffff;
             font-size: 3rem;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Тень для текста */
+            z-index: 10; /* Обеспечивает, чтобы текст был сверху */
         }
         .gallery {
             display: flex;
@@ -28,6 +29,7 @@
             flex-wrap: wrap;
             gap: 10px;
             padding: 20px;
+            z-index: 5;
         }
         .gallery img {
             width: 300px;
@@ -51,4 +53,3 @@
     </div>
 </body>
 </html>
-
